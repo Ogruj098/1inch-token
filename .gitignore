@@ -2,3 +2,6 @@ node_modules
 coverage
 coverage.json
 build
+OneInch.full.*
+*.bin
+*.abi
