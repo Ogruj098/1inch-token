@@ -8,13 +8,14 @@
     },
     "license": "MIT",
     "dependencies": {
-        "@openzeppelin/contracts": "^3.3.0"
+        "@openzeppelin/contracts": "^3.3.0",
+        "solhint": "^6.0.1"
     },
     "devDependencies": {
+        "@truffle/hdwallet-provider": "^1.2.0",
         "solc": "^0.6.12",
         "truffle": "^5.1.58",
-        "truffle-flattener": "^1.5.0",
-        "@truffle/hdwallet-provider": "^1.2.0"
+        "truffle-flattener": "^1.5.0"
     },
     "scripts": {
         "test": "truffle test --stacktrace",
